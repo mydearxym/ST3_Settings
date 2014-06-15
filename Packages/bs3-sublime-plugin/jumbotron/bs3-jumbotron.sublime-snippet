@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<div class="jumbotron">
+	<div class="container">
+		<h1>${1:Hello, world!}</h1>
+		<p>${2:Contents ...}</p>
+		<p>
+			<a class="btn btn-primary btn-lg">${3:Learn more}</a>
+		</p>
+	</div>
+</div>
+]]></content>
+	<tabTrigger>bs3-jumbotron</tabTrigger>
+</snippet>

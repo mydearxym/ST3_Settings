@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<form action="${1}" method="${2:POST}" class="form-inline" role="form">
+
+	${3:<div class="form-group">
+		<label class="sr-only" for="">label</label>
+		<input type="email" class="form-control" id="" placeholder="Input field">
+	</div>}
+
+	${0}
+
+	<button type="submit" class="btn btn-primary">${4:Submit}</button>
+</form>
+]]></content>
+	<tabTrigger>bs3-form:inline</tabTrigger>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<div class="checkbox">
+	<label>
+		<input type="checkbox" value="${1}">
+		${2:Checkbox}
+	</label>
+</div>
+]]></content>
+	<tabTrigger>bs3-input:checkbox</tabTrigger>
+</snippet>

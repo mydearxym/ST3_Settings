@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group">
+	<div class="col-${3:sm-10} col-offset-2">
+		<button type="submit" class="btn btn-primary">${5:Submit}</button>
+	</div>
+</div>
+]]></content>
+	<tabTrigger>bs3-input:submit:h</tabTrigger>
+</snippet>

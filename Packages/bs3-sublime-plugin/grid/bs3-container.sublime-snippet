@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<div class="container">
+	${0}
+</div>
+]]></content>
+	<tabTrigger>bs3-container</tabTrigger>
+</snippet>

@@ -1,0 +1,7 @@
+
+<snippet>
+    <content><![CDATA[xhr :post, :${1:create}, ${2:object}: { $3 }]]></content>
+    <tabTrigger>xpost</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>xhr post</description>
+</snippet>

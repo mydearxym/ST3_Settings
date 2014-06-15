@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<div class="clearfix">
+
+</div>
+]]></content>
+	<tabTrigger>bs3-clearfix</tabTrigger>
+</snippet>

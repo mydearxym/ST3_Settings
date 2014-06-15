@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<table class="table table-condensed ${1:table-hover}">
+	<thead>
+		<tr>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+]]></content>
+	<tabTrigger>bs3-table:condensed</tabTrigger>
+</snippet>

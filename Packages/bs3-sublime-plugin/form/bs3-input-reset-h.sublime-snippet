@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group">
+	<div class="col-sm-${1:10} col-offset-${2:2}">
+		<input type="reset" value="${3:Reset}" class="btn btn-default">
+	</div>
+</div>
+]]></content>
+	<tabTrigger>bs3-input:reset:h</tabTrigger>
+</snippet>

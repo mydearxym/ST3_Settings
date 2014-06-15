@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<ol class="breadcrumb">
+	<li>
+		<a href="${1:#}">${2:Home}</a>
+	</li>
+	${3:<li>
+		<a href="#">Link</a>
+	</li>}
+	<li class="active">${4:Current}</li>
+</ol>
+]]></content>
+	<tabTrigger>bs3-breadcrumbs</tabTrigger>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[scope :${1:name}, ->{ where(${2:attr:} ${3:value}) }
+]]></content>
+    <tabTrigger>sc</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>scope</description>
+</snippet>
