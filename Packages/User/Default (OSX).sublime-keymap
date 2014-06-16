@@ -5,7 +5,14 @@
     // sublime erb
     { "keys": ["+shift+enter"], "command": "erb" },
     
-
+    { "keys": [",", "m"], "command": "list_rails_models", "context": [{"key": "setting.command_mode"}] },
+    { "keys": [",", "c"], "command": "list_rails_controllers", "context": [{"key": "setting.command_mode"}] },
+    { "keys": [",", "v"], "command": "list_rails_views", "context": [{"key": "setting.command_mode"}] },
+    { "keys": [",", "h"], "command": "list_rails_helpers", "context": [{"key": "setting.command_mode"}] },
+    // { "keys": [" ", "x"], "command": "list_rails_fixtures", "context": [{"key": "setting.command_mode"}] },
+    { "keys": [",", "t"], "command": "list_rails_tests", "context": [{"key": "setting.command_mode"}] },
+    { "keys": [",", "j"], "command": "list_rails_javascripts", "context": [{"key": "setting.command_mode"}] },
+    { "keys": [",", "s"], "command": "list_rails_stylesheets", "context": [{"key": "setting.command_mode"}] },
     
     //============ for rails end========================
 
@@ -98,13 +105,16 @@
     // { "keys": ["ctrl+o"], "command": "jump_back" },
     // { "keys": ["ctrl+o"], "command": "jump_forward" },
 
-    { "keys": [",", ","], "command": "jump_back", "context": [{"key": "setting.command_mode"}] },
-    { "keys": [".", "."], "command": "jump_forward", "context": [{"key": "setting.command_mode"}] },
+    // { "keys": [",", ","], "command": "jump_back", "context": [{"key": "setting.command_mode"}] },
+    // { "keys": [".", "."], "command": "jump_forward", "context": [{"key": "setting.command_mode"}] },
+
+    { "keys": ["ctrl+["], "command": "jump_back" },
+    { "keys": ["ctrl+]"], "command": "jump_forward" },
 
     { "keys": ["ctrl+u"], "command": "swap_line_up" },
     
-    { "keys": ["ctrl+["], "command": "fold" },
-    { "keys": ["ctrl+]"], "command": "unfold" },
+    // { "keys": ["ctrl+["], "command": "fold" },
+    // { "keys": ["ctrl+]"], "command": "unfold" },
     
     { "keys": ["command+`"], "command": "fold_all" },
     { "keys": ["command+ctrl+`"], "command": "unfold_all"},
